@@ -1,0 +1,84 @@
+.container {
+    width: 350px;
+    height: 500px;
+    padding: 40px;
+   
+    
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+
+    box-shadow: 14px 14px 20px #cbced1,
+    -14px -14px 20px white;
+    margin: auto;
+    
+}
+
+body {
+    padding-top: 75px;
+    background-color: #ecf0f3;
+}
+
+.roblox {
+    height: 100px;
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+    padding-left: 12px;
+    padding-top: 8px;
+}
+
+#icon {
+    height: 80px;
+    width: 80px;
+    
+}
+
+#title {
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+  margin: auto;
+}
+
+#Search {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 80px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    border-color: transparent;
+    outline: none;
+    text-align: left;
+    margin-top: 30px;
+}
+
+
+#button {
+    margin-top: 20px;
+    background: #000000;
+    height: 40px;
+    border-radius: 20px;
+    width: 100%;
+    cursor:pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+
+#button:hover {
+    box-shadow: none;
+  }
+
+
+#link {
+    text-decoration: none;
+    color: white;
+}
